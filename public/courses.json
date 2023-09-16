@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "course_name": "Python Object-Oriented Programming",
+      "course_description": "Learn object-oriented programming principles in Python.",
+      "course_img": "https://i.ibb.co/gdZ29nF/Rectangle-2.png",
+      "credit": 3,
+      "price": 49.99
+    },
+    {
+      "id": 2,
+      "course_name": "MySQL Fundamentals",
+      "course_description": "Master the basics of MySQL database management.",
+      "course_img": "https://i.ibb.co/6sf5xgk/Rectangle-2-1.png",
+      "credit": 4,
+      "price": 79.99
+    },
+    {
+      "id": 3,
+      "course_name": "C Programming Essentials",
+      "course_description": "Learn the fundamentals of C programming language.",
+      "course_img": "https://i.ibb.co/nnNm1xf/Rectangle-2-2.png",
+      "credit": 2,
+      "price": 39.99
+    },
+    {
+      "id": 4,
+      "course_name": "Algorithms and Data Structures",
+      "course_description": "Explore algorithms and data structures for efficient problem-solving.",
+      "course_img": "https://i.ibb.co/kX9V4yS/Rectangle-2-3.png",
+      "credit": 3,
+      "price": 59.99
+    },
+    {
+      "id": 5,
+      "course_name": "C++ Programming Mastery",
+      "course_description": "Become proficient in C++ programming language.",
+      "course_img": "https://i.ibb.co/brS2ZMb/Rectangle-2-4.png",
+      "credit": 2,
+      "price": 49.99
+    },
+    {
+      "id": 6,
+      "course_name": "Software Engineering Principles",
+      "course_description": "Learn software engineering best practices and methodologies.",
+      "course_img": "https://i.ibb.co/yYLGMPx/Rectangle-2-5.png",
+      "credit": 4,
+      "price": 89.99
+    },
+    {
+      "id": 7,
+      "course_name": "Problem Solving Techniques",
+      "course_description": "Develop effective problem-solving skills.",
+      "course_img": "https://i.ibb.co/mq3FW2T/Rectangle-2-6.png",
+      "credit": 2,
+      "price": 29.99
+    },
+    {
+      "id": 8,
+      "course_name": "Data Structures and Algorithms in Python",
+      "course_description": "Master data structures and algorithms using Python.",
+      "course_img": "https://i.ibb.co/vC9ky7W/Rectangle-3.png",
+      "credit": 3,
+      "price": 69.99
+    },
+    {
+      "id": 9,
+      "course_name": "AWS Cloud Services",
+      "course_description": "Explore cloud computing with Amazon Web Services (AWS).",
+      "course_img": "https://i.ibb.co/myFDS5m/Rectangle-3-1.png",
+      "credit": 1,
+      "price": 19.99
+    }
+  ]
+  
