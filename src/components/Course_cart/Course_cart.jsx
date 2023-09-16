@@ -1,11 +1,27 @@
+import PropTypes from 'prop-types';
+import { useState } from 'react';
 
-
-const Course_cart = () => {
+const Course_cart = ({cart}) => {
+    const {course_name}=cart;
+    const [index, setIndex]=useState(1)
+    const increaseIndex = () => {
+        setIndex(index + 1);
+        // return index;
+    };
+    
     return (
-        <div className="md:w-1/3">
-            <h2 className="text-xl text-center font-bold">Course Name</h2>
+        <div className='rounded-xl'>
+            <h3 className='text-base text-[#1C1B1B99] ml-6 mb-3'>{increaseIndex} {course_name}</h3>
+            
         </div>
+        
     );
+    
 };
+
+
+Course_cart.propTypes={
+    cart: PropTypes.object.isRequired,
+}
 
 export default Course_cart;

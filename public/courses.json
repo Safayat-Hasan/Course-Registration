@@ -2,7 +2,7 @@
     {
       "id": 1,
       "course_name": "Python Object-Oriented Programming",
-      "course_description": "Learn object-oriented programming principles in Python.",
+      "course_description": "Learn object-oriented programming principles in Python and gain hands-on experience in creating Python classes, objects, and methods. Dive deep into inheritance, polymorphism, and encapsulation to write efficient and maintainable code. Build real-world applications using object-oriented design.",
       "course_img": "https://i.ibb.co/gdZ29nF/Rectangle-2.png",
       "credit": 3,
       "price": 49.99
@@ -10,7 +10,7 @@
     {
       "id": 2,
       "course_name": "MySQL Fundamentals",
-      "course_description": "Master the basics of MySQL database management.",
+      "course_description": "Master the basics of MySQL database management and SQL querying. Explore database design, data manipulation, and best practices for data storage and retrieval. Get hands-on experience with MySQL workbench and learn how to optimize database performance.",
       "course_img": "https://i.ibb.co/6sf5xgk/Rectangle-2-1.png",
       "credit": 4,
       "price": 79.99
@@ -18,7 +18,7 @@
     {
       "id": 3,
       "course_name": "C Programming Essentials",
-      "course_description": "Learn the fundamentals of C programming language.",
+      "course_description": "Learn the fundamentals of C programming language, including variables, data types, control structures, and functions. Dive into advanced topics like memory management and file handling. Build C programs and gain practical coding skills.",
       "course_img": "https://i.ibb.co/nnNm1xf/Rectangle-2-2.png",
       "credit": 2,
       "price": 39.99
@@ -26,7 +26,7 @@
     {
       "id": 4,
       "course_name": "Algorithms and Data Structures",
-      "course_description": "Explore algorithms and data structures for efficient problem-solving.",
+      "course_description": "Explore algorithms and data structures for efficient problem-solving. Study sorting, searching, and graph algorithms. Master data structures like arrays, linked lists, and trees. Solve coding challenges and analyze algorithmic complexity.",
       "course_img": "https://i.ibb.co/kX9V4yS/Rectangle-2-3.png",
       "credit": 3,
       "price": 59.99
@@ -34,7 +34,7 @@
     {
       "id": 5,
       "course_name": "C++ Programming Mastery",
-      "course_description": "Become proficient in C++ programming language.",
+      "course_description": "Become proficient in C++ programming language. Learn object-oriented programming in C++, including classes, inheritance, and polymorphism. Explore advanced C++ features like templates and exception handling. Build C++ applications and libraries.",
       "course_img": "https://i.ibb.co/brS2ZMb/Rectangle-2-4.png",
       "credit": 2,
       "price": 49.99
@@ -42,7 +42,7 @@
     {
       "id": 6,
       "course_name": "Software Engineering Principles",
-      "course_description": "Learn software engineering best practices and methodologies.",
+      "course_description": "Learn software engineering best practices and methodologies. Understand software development life cycles, requirements analysis, and design principles. Explore topics like version control, testing, and project management. Apply agile and waterfall methodologies.",
       "course_img": "https://i.ibb.co/yYLGMPx/Rectangle-2-5.png",
       "credit": 4,
       "price": 89.99
@@ -50,7 +50,7 @@
     {
       "id": 7,
       "course_name": "Problem Solving Techniques",
-      "course_description": "Develop effective problem-solving skills.",
+      "course_description": "Develop effective problem-solving skills. Learn critical thinking and logical reasoning. Explore strategies for tackling complex problems. Practice problem-solving in various domains, from mathematics to programming.",
       "course_img": "https://i.ibb.co/mq3FW2T/Rectangle-2-6.png",
       "credit": 2,
       "price": 29.99
@@ -58,7 +58,7 @@
     {
       "id": 8,
       "course_name": "Data Structures and Algorithms in Python",
-      "course_description": "Master data structures and algorithms using Python.",
+      "course_description": "Master data structures and algorithms using Python. Study lists, stacks, queues, and trees. Implement classic sorting and searching algorithms. Analyze algorithmic complexity and optimize code. Solve coding challenges and prepare for technical interviews.",
       "course_img": "https://i.ibb.co/vC9ky7W/Rectangle-3.png",
       "credit": 3,
       "price": 69.99
@@ -66,7 +66,7 @@
     {
       "id": 9,
       "course_name": "AWS Cloud Services",
-      "course_description": "Explore cloud computing with Amazon Web Services (AWS).",
+      "course_description": "Explore cloud computing with Amazon Web Services (AWS). Learn about cloud infrastructure, virtualization, and AWS services like EC2, S3, and RDS. Deploy and manage cloud applications. Optimize cost and security in the AWS cloud.",
       "course_img": "https://i.ibb.co/myFDS5m/Rectangle-3-1.png",
       "credit": 1,
       "price": 19.99
