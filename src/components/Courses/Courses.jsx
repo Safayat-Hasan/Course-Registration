@@ -1,20 +1,25 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import Course from "../Course/Course";
 
 
 const Courses = () => {
 
     const [courses, setCourses] = useState([])
 
-    useEffect(()=>{
+    useEffect(() => {
         fetch('courses.json')
-        .then(res=>res.json())
-        .then(data=>setCourses(data))
-    },[])
+            .then(res => res.json())
+            .then(data => setCourses(data))
+    }, [])
 
     return (
-        <div>
-            <h1 className="text-4xl">Courses: {courses.length}</h1>
+        <div className="md:w-2/3">
+            <div className="grid grid-cols-3">
+                {
+                    courses.map(course => <Course key={course.id} course={course}></Course>)
+                }
+            </div>
         </div>
     );
 };
