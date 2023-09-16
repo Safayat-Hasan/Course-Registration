@@ -27,8 +27,7 @@ const Course = ({course, handleCourseCart}) => {
 
 Course.propTypes={
     course: PropTypes.object.isRequired,
-    handleCourseCart: PropTypes.func.isRequired,
-    handleCredit: PropTypes.func.isRequired
+    handleCourseCart: PropTypes.func.isRequired
 }
 
 export default Course;

@@ -4,7 +4,7 @@ import Course from "../Course/Course";
 import PropTypes from 'prop-types';
 
 
-const Courses = ({handleCourseCart, handleCredit}) => {
+const Courses = ({handleCourseCart}) => {
 
     const [courses, setCourses] = useState([])
 
@@ -18,7 +18,7 @@ const Courses = ({handleCourseCart, handleCredit}) => {
         <div className="md:w-2/3">
             <div className="grid grid-cols-3">
                 {
-                    courses.map(course => <Course key={course.id} course={course} handleCourseCart={handleCourseCart} handleCredit={handleCredit}></Course>)
+                    courses.map(course => <Course key={course.id} course={course} handleCourseCart={handleCourseCart}></Course>)
                 }
             </div>
         </div>
@@ -26,8 +26,7 @@ const Courses = ({handleCourseCart, handleCredit}) => {
 };
 
 Courses.propTypes={
-    handleCourseCart: PropTypes.func.isRequired,
-    handleCredit: PropTypes.func.isRequired
+    handleCourseCart: PropTypes.func.isRequired
 }
 
 export default Courses;
