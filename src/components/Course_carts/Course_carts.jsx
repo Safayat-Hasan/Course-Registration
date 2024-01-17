@@ -34,7 +34,8 @@ const Course_carts = ({carts, credit}) => {
 
 Course_carts.propTypes={
     carts: PropTypes.array.isRequired,
-    credit: PropTypes.number
+    credit: PropTypes.number,
+    handleCourseCart: PropTypes.func
 }
 
 export default Course_carts;
